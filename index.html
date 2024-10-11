@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="store">
+      <div class="product product--wine" draggable="true">
+        <p class="visually-hidden">Вино</p>
+      </div>
+      <div class="product product--milk" draggable="true">
+        <p class="visually-hidden">Молоко</p>
+      </div>
+      <div class="product product--cupcake" draggable="true">
+        <p class="visually-hidden">Кекс</p>
+      </div>
+      <div class="product product--cheese" draggable="true">
+        <p class="visually-hidden">Сыр</p>
+      </div>
+      <div class="product product--meat" draggable="true">
+        <p class="visually-hidden">Мясо</p>
+      </div>
+      <div class="product product--chicken" draggable="true">
+        <p class="visually-hidden">Курица</p>
+      </div>
+      <div class="product product--chips" draggable="true">
+        <p class="visually-hidden">Чипсы</p>
+      </div>
+      <div class="product product--pineapple" draggable="true">
+        <p class="visually-hidden">Ананас</p>
+      </div>
+      <div class="product product--banana" draggable="true">
+        <p class="visually-hidden">Банан</p>
+      </div>
+      <div class="product product--apple" draggable="true">
+        <p class="visually-hidden">Яблоко</p>
+      </div>
+      <div class="product product--cabbage" draggable="true">
+        <p class="visually-hidden">Капуста</p>
+      </div>
+    </div>
+    <div class="basket" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <img src="./icon/basket.svg">
+    </div>
+    <a href="https://lavka.market.yandex.ru/" class="pay">Оплатить корзину</a>
+  </div>
+</body>
+<script src="./main.js"></script>
+
+</html>

@@ -1,0 +1,161 @@
+.container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 277px;
+  margin: 0 auto;
+}
+
+.store {
+  position: relative;
+  width: 212px;
+  height: 432px;
+  background-image: url(./icon/store.svg);
+  background-repeat: no-repeat;
+}
+
+.product {
+  position: absolute;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.product--wine {
+  background-image: url(./icon/wine.svg);
+  width: 37px;
+  height: 124px;
+  bottom: 307px;
+  left: 13px;
+}
+
+.product--milk {
+  background-image: url(./icon/milk.svg);
+  width: 37px;
+  height: 89px;
+  bottom: 307px;
+  left: 62px;
+}
+
+.product--cupcake {
+  background-image: url(./icon/cupcake.svg);
+  width: 46px;
+  height: 41px;
+  bottom: 309px;
+  left: 102px;
+}
+
+.product--cheese {
+  background-image: url(./icon/cheese.svg);
+  width: 36px;
+  height: 34.4px;
+  bottom: 309px;
+  left: 159px;
+}
+
+.product--meat {
+  width: 54px;
+  height: 55px;
+  bottom: 210px;
+  left: 8px;
+  background-image: url(./icon/meat.svg);
+}
+
+.product--chicken {
+  width: 66px;
+  height: 49.85px;
+  bottom: 212px;
+  left: 55px;
+  background-image: url(./icon/chicken.svg);
+}
+
+.product--chips {
+  width: 76.17px;
+  height: 46.98px;
+  bottom: 210px;
+  left: 131px;
+  background-image: url(./icon/chips.svg);
+}
+
+.product--pineapple {
+  width: 35px;
+  height: 75px;
+  bottom: 120px;
+  left: 13px;
+  background-image: url(./icon/pineapple.svg);
+}
+
+.product--banana {
+  width: 47px;
+  height: 48px;
+  bottom: 120px;
+  left: 58px;
+  background-image: url(./icon/banana.svg);
+}
+
+.product--apple {
+  width: 31px;
+  height: 36px;
+  bottom: 120px;
+  left: 113px;
+  background-image: url(./icon/apple.svg);
+}
+
+.product--cabbage {
+  width: 62px;
+  height: 51px;
+  bottom: 115px;
+  left: 157px;
+  background-image: url(./icon/cabbage.svg);
+}
+
+.basket {
+  position: relative;
+  top: -90px;
+  width: 276px;
+  height: 229px;
+  background-repeat: no-repeat;
+  z-index: 10;
+}
+
+.pay {
+  position: absolute;
+  opacity: 0;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  width: 174px;
+  transition: opacity 0.5s ease;
+  transition: transform 0.5s ease;
+  background-color: #FCE000;
+  border-radius: 10px;
+  padding: 20px 0px;
+  bottom: 100px;
+  z-index: 11;
+}
+
+.pay:hover {
+  transform: scale(1.1);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  border: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+}
